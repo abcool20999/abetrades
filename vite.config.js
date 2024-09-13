@@ -28,7 +28,7 @@ export default defineConfig(({ mode }) => {
       hot: true,   
     },
     build: {
-      outDir: 'public', 
+      outDir: 'dist'
     },
   };
 });
