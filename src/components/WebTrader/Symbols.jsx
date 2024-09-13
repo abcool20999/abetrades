@@ -34,8 +34,7 @@ const Symbols = () => {
         let price = arrayResult[length-1]['vw']
           //setSymbolInfo({symbol: symbolInfo.symbol, buyPrice: price, buyValue: 1.0000, sellPrice: price, sellValue: 1.0000})
         let candleStickData = arrayResult.map((tick)=>{
-          // let formattedDate = formatDate(tick.t)
-          // let time = extractTime(tick.t)
+         
         return {
           time: Date.parse(tick.t)/1000, open: tick.o, high: tick.h, low: tick.l, close: tick.c
         }

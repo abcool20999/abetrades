@@ -88,15 +88,13 @@ const BuySell = () => {
       case 'buy':
         price = symbolInfo.buyPrice
         value = calculatedBuyValue || 0.001
-        // price = document.getElementById('buyprice')
-        // value = document.getElementById('buyvalue')
+       
         break;
     
       case 'sell':
         price = symbolInfo.sellPrice
         value = calculatedSellValue || 0.001
-        // price = document.getElementById('sellprice')
-        // value = document.getElementById('sellvalue')
+       
         break;
 
       default:
@@ -113,8 +111,7 @@ const BuySell = () => {
 
     let config = {
       method: 'post',
-      // maxBodyLength: Infinity,
-      // url: 'http://localhost:5000/api/auth/login',
+    
       headers: { 
         'Accept': 'application/json',
         'Content-Type': 'application/json',
@@ -134,16 +131,12 @@ const BuySell = () => {
       showFailModal()
     });
 
-    //this also sets the account on the context
+    
     let account = await getAccountById()
   }
   return (
     <div className='col px-4 my-4'>
-      {/* <div>{symbolInfo.symbol}</div>
-      <div className='row'>
-        <div className='col-4'>Spot Trading</div>
-        <div className='col-8' style={{"margin-left": '-50px'}}><span>Available Balance </span><span><b>{account.last_equity}USD</b></span></div>
-      </div> */}
+     
 
       <div className='row buysellalignleft'>
         <div className='col-6' style={{"margin-top": '24px'}}>
