@@ -1,0 +1,50 @@
+/* General styling for the page */
+.my-accounts-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+  
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+/* Styling for the table */
+.accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.accounts-table th, .accounts-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+.accounts-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+  
+.accounts-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.accounts-table tr:hover {
+    background-color: #f1f1f1;
+}
+  
+/* Styling for logos and credentials */
+.accounts-table td img {
+    max-width: 100px;
+    height: auto;
+}
+  
+.accounts-table td .login-credentials {
+    font-size: 0.9em;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+}

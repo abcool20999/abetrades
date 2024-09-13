@@ -1,0 +1,9 @@
+
+  .footer-link a:hover {
+    color: #00ff00; 
+    text-decoration: underline; 
+  }
+  
+  .footer-aboutus {
+    text-align: left; 
+  }

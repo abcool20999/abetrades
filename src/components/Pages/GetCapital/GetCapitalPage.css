@@ -1,0 +1,24 @@
+/* General container styling */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  /* Adjust padding for the container holding the buttons */
+  .col-4 {
+    padding: 0 15px; /* Adds horizontal padding */
+  }
+  
+  /* Add margin to the bottom of each CapitalClass component to separate it from the footer */
+  .col-4 > .subscription-card {
+    margin-bottom: 30px; /* Adjust this value as needed */
+  }
+  
+  /* Optionally, you might want to adjust the padding of the footer if you have a footer element */
+  .footer {
+    padding: 20px; /* Adjust the padding around the footer */
+    background-color: #f4f4f4; /* Example background color */
+    text-align: center; /* Center align text in the footer */
+  }
+  

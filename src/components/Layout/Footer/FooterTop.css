@@ -1,0 +1,66 @@
+.logo-img {
+    width: 50px;
+    justify-content: left;
+
+}
+
+.footer-left {
+    justify-content: left;
+    margin-left: 12px;
+    padding-left: 40px;
+    margin-top: 90px;
+    text-align: left;
+    align-items: center;
+}
+
+.footer-left,
+.form {
+    display: inline-block;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+}
+
+.me-3 {
+    margin-right: 1rem;
+}
+
+.form {
+    display: flex;
+
+    margin-left: 0px;
+    padding: 20px 0;
+}
+
+.footer-right {
+    width: 100%;
+    max-width: 500px;
+}
+
+.email-input {
+    width: 65%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+}
+
+.subscribe-btn {
+    width: 30%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.me-3 {
+    margin-right: 15px;
+}

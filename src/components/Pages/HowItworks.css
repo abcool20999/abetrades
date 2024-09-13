@@ -1,0 +1,22 @@
+.how-it-works-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .steps-container {
+    margin-top: 20px;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
