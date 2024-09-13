@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
 
   return {
+    base: "/",
     plugins: [react()],
     root: path.resolve(__dirname, 'src'), 
     resolve: {
