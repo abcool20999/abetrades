@@ -4,7 +4,7 @@ import './Heading.css';
 
 const Heading = () => {
     return (
-      <div id='homepage_heading' className='pb-5 bg-image pt-5 align-items-center' style={{backgroundImage: "url('../../../assets/forex.jpeg')", backgroundSize: 'cover', height: "500px"}}>
+      <div id='homepage_heading' className='pb-5 bg-image pt-5 align-items-center' style={{backgroundImage: "url('/assets/forex.jpeg')", backgroundSize: 'cover', height: "500px"}}>
         <h1 className='text-white p-2 m-2 display-4 font-weight-bolder'>
           <b>Next Generation Funded Trading</b>
         </h1>

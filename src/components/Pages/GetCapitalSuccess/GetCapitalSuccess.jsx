@@ -9,8 +9,8 @@ const GetCapitalSuccess = () => {
             <div className='row col-8'>
                 <div className="confirmation">
                     <h3>Congratulations</h3>
-                    <p>You have been funded, an email has been sent with your Login details</p>
-                    <a className='btn bg-dark text-white' href='/myChallenges'>Go to MyChallenges</a>
+                    <p>You have been funded, navigate to the webtrader and start making money</p>
+                    <a className='btn bg-dark text-white' href='/Dashboard'>Go to MyDashboard</a>
                 </div>
             </div>
         </div>
