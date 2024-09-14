@@ -1,5 +1,6 @@
 import React from 'react';
 import './FooterTop.css';
+import logo2Url from '../../../assets/logo2.png';
 
 
 const FooterTop = () => {
@@ -7,7 +8,7 @@ const FooterTop = () => {
     <div>
       <div className="footer-top row justify-content-between align-items-center">
         <div className="footer-left col-4">
-          <img src="/assets/logo2.png" alt="Prop Firm Logo" />
+          <img src={logo2Url} alt="Prop Firm Logo" />
           <span className='text-white ms-2'>betrade</span>
         </div>
         <div className="form">

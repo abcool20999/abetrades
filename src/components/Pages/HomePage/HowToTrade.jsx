@@ -1,4 +1,5 @@
 import React from 'react';
+import howtotradeUrl from '../../../assets/howtotrade.jpg';
 
 const HowToTrade = () => {
     return (
@@ -9,7 +10,7 @@ const HowToTrade = () => {
         To start trading, simply create an account and choose the capital you wish to trade with. After that, access our WebTrader platform to place your trades. Once you've made a profit, you can withdraw 90% of your earnings while the firm retains 10%. It's an easy and straightforward process designed to help you maximize your trading success.
         </p>
         <div className='row p-4 mx-auto w-75'>
-        <img src='./assets/howtotrade.jpg' className='w-50 mx-5'></img>
+        <img src={howtotradeUrl} className='w-50 mx-5'></img>
         <div className='w-25 mx-6'>
             <h3>Steps to access Fund</h3>
             <div className='row rounded-5 bg-white border-light p-2 mt-2'>

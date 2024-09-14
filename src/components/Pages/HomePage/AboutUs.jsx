@@ -1,5 +1,5 @@
 import React from 'react';
-
+import fxUrl from '../../../assets/fx.webp';
 const AboutUs = () => {
     return (
         <div className='row m-5'>
@@ -11,7 +11,7 @@ const AboutUs = () => {
                 <button className="bg-black text-white ">Read More</button>
             </div>
             <div className='col-6 p-2'>
-                <img src='/assets/fx.webp' className='w-50'>
+                <img src={fxUrl} className='w-50'>
                 </img>
             </div>
         </div>

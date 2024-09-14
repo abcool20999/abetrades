@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import './Header.css'; 
+import logo2Url from '../../assets/logo2.png';
 
 const Header = ({ isAuthenticated }) => {
   console.log(`isAuthenticated in header is ${isAuthenticated}`);
@@ -8,7 +9,7 @@ const Header = ({ isAuthenticated }) => {
   return (
     <header className="list-group list-group-horizontal d-flex justify-content-between border-bottom-2 mb-4">
       <div className="logo list-group-item border-0 my-auto d-flex align-items-center">
-        <img src="/assets/logo2.png" alt="Prop Firm Logo" className="logo-img" />
+        <img src={logo2Url} alt="Prop Firm Logo" className="logo-img" />
         <span className="ms-2">betrade</span> 
       </div>
       <nav className='list-group-item border-0'>
