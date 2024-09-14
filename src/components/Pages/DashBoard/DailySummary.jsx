@@ -46,69 +46,7 @@ const DailySummary = () => {
               </tr>
             </thead>
             <tbody>
-              {/* Placeholder for daily summary data */}
-              {/* {positions.map((position, index)=>{
-                <td></td>
-              })} 
-               
-              asset_class
-: 
-"us_equity"
-asset_id
-: 
-"f30d734c-2806-4d0d-b145-f9fade61432b"
-asset_marginable
-: 
-true
-avg_entry_price
-: 
-"158.26"
-change_today
-: 
-"0"
-cost_basis
-: 
-"474.78"
-current_price
-: 
-"152.13"
-exchange
-: 
-"NASDAQ"
-lastday_price
-: 
-"152.13"
-market_value
-: 
-"456.39"
-qty
-: 
-"3"
-qty_available
-: 
-"3"
-side
-: 
-"long"
-symbol
-: 
-"GOOG"
-unrealized_intraday_pl
-: 
-"0"
-unrealized_intraday_plpc
-: 
-"0"
-unrealized_pl
-: 
-"-18.39"
-unrealized_plpc
-: 
-"-0.038733729306205"
-[[Prototype]]
-: 
-Object
-               */}
+
                 <th><small>{aggregateL<0? aggregateL: '-'}</small></th>
                 <th><small>{aggregateTL<0? aggregateTL: '-'}</small></th>
                <th><small> - </small></th>

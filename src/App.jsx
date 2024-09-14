@@ -92,19 +92,7 @@ const App = () => {
             </AuthIsNotSignedIn>
           </AuthProvider>
 
-            {/* <Routes>
-              <Route path='/' element={user?.email ? <Dashboard user={user} /> : <HomePage />}
-              // element={<HomePage/>} 
-              />
-              <Route path="/GetCapital" element={<GetCapital/>} />
-              <Route path="/Login" element={<Login/>} />
-              <Route path="/MyChallenges" element={<MyChallenges/>} />
-              <Route path='/Dashboard' element={<Dashboard/>} />
-              <Route path="/myaccounts" element={<Navigate to="/Dashboard"/>} />
-              <Route path='/myprofile' element={<Dashboard/>} />
-              <Route path='/SignUp' element={<Register/>} />
-              <Route path='/WebTrader' element={<WebTrader/>} />
-            </Routes> */}
+
           </div>
         </div>
       <Footer />
@@ -112,54 +100,6 @@ const App = () => {
   
 );
 
-  // return (
-    
-  //     <div className="app w-100 container-lg">
-  //       <Header />
-  //         <div className="main-content bg-light">  
-  //           {/* <HomePage/> */}
-  //           <div className=''>
-  //           <AuthProvider>
-  //             <AuthIsSignedIn>
-  //                 <Routes>
-  //                   <Route path={"/logout"} element={<Logout />} />
-  //                   {/* <Route path={"/protected"} element={<Protected />} /> */}
-  //                   <Route path='/' element={user.email ? <Dashboard user={user} /> : <HomePage />}
-  //                   // element={<HomePage/>} 
-  //                   />
-                    
-  //                   <Route path="/GetCapital" element={<GetCapital/>} />
-  //                   <Route path="/Login" element={<Login/>} />
-  //                   <Route path="/MyChallenges" element={<MyChallenges/>} />
-  //                   <Route path='/Dashboard' element={<Dashboard/>} />
-  //                   <Route path="/myaccounts" element={<Navigate to="/Dashboard"/>} />
-  //                   <Route path='/myprofile' element={<Dashboard/>} />
-  //                   <Route path='/SignUp' element={<Register/>} />
-  //                   <Route path='/WebTrader' element={<WebTrader/>} />
 
-  //                 </Routes>
-  //             </AuthIsSignedIn>
-
-  //           </AuthProvider>
-
-  //             {/* <Routes>
-  //               <Route path='/' element={user?.email ? <Dashboard user={user} /> : <HomePage />}
-  //               // element={<HomePage/>} 
-  //               />
-  //               <Route path="/GetCapital" element={<GetCapital/>} />
-  //               <Route path="/Login" element={<Login/>} />
-  //               <Route path="/MyChallenges" element={<MyChallenges/>} />
-  //               <Route path='/Dashboard' element={<Dashboard/>} />
-  //               <Route path="/myaccounts" element={<Navigate to="/Dashboard"/>} />
-  //               <Route path='/myprofile' element={<Dashboard/>} />
-  //               <Route path='/SignUp' element={<Register/>} />
-  //               <Route path='/WebTrader' element={<WebTrader/>} />
-  //             </Routes> */}
-  //           </div>
-  //         </div>
-  //       <Footer />
-  //     </div>
-    
-  // );
 };
 export default App;

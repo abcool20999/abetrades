@@ -14,10 +14,7 @@ const Logout = () => {
   };
   return   <Login></Login>
 
-  // <div>
-  //           <Link to="/Login" className="btn btn-primary">Login</Link>
-  //        </div>
-  //return <button onClick={handleLogout}>Logout</button>;
+ 
 };
 
 export default Logout;

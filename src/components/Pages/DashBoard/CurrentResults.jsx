@@ -9,38 +9,7 @@ const CurrentResults = () => {
     const { orders, setOrders, positions, setPositions } = useContext(DashBoardContext);
 
     useEffect(()=>{
-        // async function getOrders(){
-        //     try {
-        //         let token = getAuthToken()
-        //         if(!token){
-        //              console.log("token not found")
-        //         }
-        //         else{
-        //             let config = {
-        //                 method: 'get',
-        //                 // maxBodyLength: Infinity,
-        //                 // url: 'http://localhost:5000/api/auth/login',
-        //                 headers: { 
-        //                     'Accept': 'application/json',
-        //                     'Content-Type': 'application/json',
-        //                     'authorization': `Bearer ${token}`
-        //                 }
-        //                 };
-                    
-        //                 var response = await axios(`${appConfig.BACKEND_BASE_URL}/api/order/get_orders`, config)
-        //                 let data = response.data
-        //                 if(data.data){
-        //                 setOrders(data.data)
-        //                 //return data
-        //                 }
-        //         }
-        //       } catch (error) {
-        //         console.log(error)
-        //         //return null
-        //       }
-        //     }
-
-        // getOrders()
+       
     }, [orders, setOrders, positions, setPositions])
 
     return (
@@ -78,15 +47,7 @@ const CurrentResults = () => {
                                         <td>{order.status}</td>
                                         <td>{order.submitted_at}</td>
                                         <td>{order.filled_avg_price}</td>
-                                        {/* <td>{order.current_price}</td> */}
-                                        {/* <td>{()=>{let foundpos ; positions.forEach(element => {
-                                            if(element.symbol == order.symbol){
-                                                console.log('matching symbol', element)
-                                                foundpos = element
-                                                //return
-                                            } 
-                                            return foundpos?.current_price
-                                        });}}</td> */}
+                               
 
                                     </tr>
                                 ))}
